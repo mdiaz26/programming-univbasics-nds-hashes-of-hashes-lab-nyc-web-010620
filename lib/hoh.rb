@@ -42,6 +42,6 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   hash1 = [PORTION_1]
-  hash1[:Kingdom][:Phylum][:Class] = PORTION_2
+  hash1[:label][:Phylum][:Class] = PORTION_2
   hash1
 end
