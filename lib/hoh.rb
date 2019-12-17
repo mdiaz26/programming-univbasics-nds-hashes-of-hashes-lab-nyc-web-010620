@@ -44,5 +44,6 @@ def naming_system
   hash1 = PORTION_1
   hash1[:sub_category][:sub_category][:sub_category] = PORTION_2
   hash1[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
-  hash1[:sub_category][:sub_category][:sub_category][:sub_category]
+  hash1[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
+  hash1
 end
